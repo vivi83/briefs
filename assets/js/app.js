@@ -13,6 +13,10 @@ console.log("CA MARCHE");
 // MAIS MAINTENANT, ON A PLUSIEURS FORMULAIRES EN AJAX
 // var formulaire = document.querySelector("form.ajax");
 
+// ON DEFINIT LE TABLEAU ICI
+var tableauArticle = [];    // CE SERA LE SERVEUR QUI VA ME CONSTRUIRE CE TABLEAU
+
+
 var listeFormulaire = document.querySelectorAll("form.ajax");
 // ON FAIT UNE BOUCLE POUR AGIR SUR CHAQUE FORMULAIRE UN PAR UN
 listeFormulaire.forEach(function(formulaire){
@@ -79,7 +83,6 @@ function envoyerFormulaireAjax (event)
 
 };
 
-var tableauArticle = [];    // CE SERA LE SERVEUR QUI VA ME CONSTRUIRE CE TABLEAU
 
 // PROGRAMMATION FONCTIONNELLE
 // => JE RANGE MON CODE DANS DES FONCTIONS
@@ -147,20 +150,16 @@ function modifierLigne (event)
     //document.querySelector("form.update input[name=title]").value = article.title;
 
     var selecteurRadio = "form.update input[value=" + article.level + "]";
-    var radio = document.querySelector(selecteurRadio);
+    //var radio = document.querySelector(selecteurRadio);
     console.log(selecteurRadio);
-    console.log(radio);
+    
     // JE SELECTIONNE EN CSS LA BONNE BALISE radio ET JE LA CHECK EN HTML
     document.querySelector(selecteurRadio).checked = true;
 
-
-
     var selecteurDeroulant = "form.update input[value=" + article.title + "]";
-    var deroulant = document.querySelector(selecteurDeroulant);
+    //var deroulant = document.querySelector(selecteurDeroulant);
     console.log(selecteurDeroulant);
-    console.log(deroulant);
-    // JE SELECTIONNE EN CSS LA BONNE BALISE radio ET JE LA CHECK EN HTML
-    document.querySelector(selecteurDeroulant).checked = true;
+  
     
 }
 
