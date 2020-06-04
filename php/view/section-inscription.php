@@ -27,7 +27,7 @@ if(isset($_POST['confirmation']))
                      if($password==$password2){
                             $insertmbr = $pdo->prepare ("INSERT INTO user (name,email,password) VALUES (?,?,?)");
                             $insertmbr->execute (array($name,$email,$password));
-                            $erreur="Votre compte a bien été cré <a href=\"../../admin.php\"> Admin</a>";
+                            $erreur="Votre compte a bien été cré <a href=\"admin.php\"> Admin</a>";
                             //$_SESSION['comptecree']="Votre compte a bien était créer";
                            // header('Location:index.php');
                         }else{
@@ -53,21 +53,7 @@ if(isset($_POST['confirmation']))
     }
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    </style>
-</head>
-<body>
-    <header>
-        
-    </header>
-    <main>
         <h2> Inscription</h2>
         <form method="POST" action="">
             <input type="text" name="name" placeholder="entrez votre name" >
@@ -83,11 +69,3 @@ if(isset($_POST['confirmation']))
                 echo $erreur;
             }
         ?>
-    </main>
-    <footer>
-        <p>tous droits réservés</p>
-    </footer>
-
-</body>
-
-</html>

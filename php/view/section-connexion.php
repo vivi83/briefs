@@ -16,7 +16,7 @@ $passwordconnexion=sha1($_POST['passwordconnexion']);
             $_SESSION['id']=$userinfo['id'];
             $_SESSION['name']=$userinfo['name'];
             $_SESSION['email']=$userinfo['email'];
-            header("Location: ../../admin.php?id=".$_SESSION['id']);
+            header("Location:admin.php?id=".$_SESSION['id']);
         }else{
             $erreur="Mauvais email ou mot de passe";
             }
@@ -27,21 +27,7 @@ $passwordconnexion=sha1($_POST['passwordconnexion']);
 
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    </style>
-</head>
-<body>
-    <header>
-        
-    </header>
-    <main>
         <h2> Connexion</h2>
         <form method="POST" action="">
            
@@ -57,12 +43,3 @@ $passwordconnexion=sha1($_POST['passwordconnexion']);
                 echo $erreur;
             }
         ?>
-      
-    </main>
-    <footer>
-        <p>tous droits réservés</p>
-    </footer>
-
-</body>
-
-</html>
