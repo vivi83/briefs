@@ -1,4 +1,5 @@
 <section>
+<section> <a href="index.php">Se déconnecter</a></section>
 
 <section>
             <h2>FORMULAIRE DE CREATION (CREATE)</h2>
@@ -107,7 +108,7 @@
             <div class="listTodo">
             </div>
         </section>
-
+       
 
 
         
