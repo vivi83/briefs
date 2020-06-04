@@ -45,6 +45,17 @@
             </form>
         </section>
         <section>
+            <h2>AFFICHAGE DES TACHES (READ)</h2>
+
+            <form class="ajax read" action="" method="POST">
+                <button type="submit">RAFRAICHIR LA LISTE DES TACHES</button>
+                
+                <input type="hidden" name="identifiantFormulaire" value="read">
+            </form>
+            <div class="listTodo">
+            </div>
+        </section>
+        <section>
             <h2>FORMULAIRE DE MODIFICATION (UPDATE)</h2>
             <form class="ajax update" action="" method="POST">
             <input type="text" name="username" required placeholder="entrez le nom">
@@ -97,17 +108,7 @@
                 <input type="hidden" name="identifiantFormulaire" value="delete">
             </form>
         </section>
-        <section>
-            <h2>AFFICHAGE DES TACHES (READ)</h2>
 
-            <form class="ajax read" action="" method="POST">
-                <button type="submit">RAFRAICHIR LA LISTE DES TACHES</button>
-                
-                <input type="hidden" name="identifiantFormulaire" value="read">
-            </form>
-            <div class="listTodo">
-            </div>
-        </section>
        
 
 
