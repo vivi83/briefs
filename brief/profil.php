@@ -29,17 +29,13 @@ if(isset($_GET['id'])AND $_GET['id']>0){
         <h2> Profil de <?php echo $userinfo["name"]; ?></h2>
         <h4>Pseudo: <?php echo $userinfo['name'];?> </h4>
         <h4>Mail:<?php echo $userinfo['email'];?></h4>
-    <?php
-    if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id'])
-    {
-<<<CODEHTML
-//lien ne s'affiche pas
+    
+
         <a href="#">Editer mon profil</a>
         <a href="deconnection.php">Se déconnecter</a>
-CODEHTML;
+
        
-    }
-          ?>
+          
     </main>
     <footer>
         <p>tous droits réservés</p>
