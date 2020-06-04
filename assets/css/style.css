@@ -92,7 +92,7 @@ body > * {
     background-image:url("../img/C1.png");
 }
 
-.C2{background-image:url("../img/C2.png");}
+#C2{background-image:url("../img/C2.png");}
 
 .C3{}
 
