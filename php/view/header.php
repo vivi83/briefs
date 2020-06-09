@@ -11,8 +11,8 @@
     <header>
      
     <h1>Savoir tes niveau</h1>
-    <div>
-    <a href="inscription.php">Inscription</a>/
+    <div id=menu>
+    <a href="inscription.php">Inscription</a>
     <a href="connexion.php">Connexion</a>
     <a href="index.php">Accueil</a>
     <!-- <a href="admin.php">Admin</a> -->

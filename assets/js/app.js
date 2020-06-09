@@ -70,9 +70,9 @@ function rafraichirListeArticle ()
         var article = tableauArticle[indice];
         var codeHTML = 
         `
-                    <article class="${article.level}">
+                    <article class="${article.title}">
                         <h3>${article.username}</h3>
-                        <p>${article.title}</p>
+                        <h4>${article.title}</h4>
                         <p>${article.level}</p>
                         <button class="update" data-indice="${indice}" data-id="${article.id}">modifier</button>
                         <button class="delete" data-id="${article.id}">supprimer</button>
