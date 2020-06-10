@@ -1,5 +1,6 @@
 header {
 background-image:url(../img/lodoheader.png);
+background-color: rgba(0,0,0,0.8);width:100%;
 width:100%;
 height:100%;
 object-fit: cover;
@@ -14,6 +15,9 @@ html, body {
     padding-top: 100px;
     margin-bottom:22px;
     font-size:20px;
+    background-color: rgba(0,0,0,0.8);
+    width:100%;
+
 
     
 }
@@ -24,12 +28,30 @@ html, body {
    
 }
 #menu > a{
-    padding-left: 20px;
+    padding-left: 75px;
+    color: white;
+    
+    text-shadow: -2px 1px 2px black;
+    
     
 }
+#menu > a:hover{
+    color: black;
+    text-shadow: -2px 1px 2px white;
+    font-size: 30px;
 
-#dis {
+}
+
+#dis>a {
     font-size: 22px;
+    color: goldenrod;
+
+}
+#dis :hover{
+    font-size: 24px;
+    color: black;
+    text-shadow: 1px -1px 0px goldenrod;
+    
 }
 
 
@@ -40,19 +62,29 @@ h1{
 }
 
 h2{ 
-    color: grey;
+    font-size: 34px;
+    font-weight: bold;
+    color: goldenrod;
+    text-align: center;
+    text-shadow: 2px -1px 0px #704915;
 
 }
 p{
-    background-color: blanchedalmond;
+    background-color: goldenrod;
 }
 h3{
-    background-color: burlywood;
+    background-color: goldenrod;
     text-align: center;
+    border-radius: 100%;
+    
 }
 h4{
-    background-color: burlywood;
+    background-color: goldenrod;
 
+}
+h5{
+    color: white;
+    text-align: center;
 }
 * {
     box-sizing: border-box;
@@ -66,19 +98,48 @@ form > * {
     margin: 0.2rem;
     padding: 0.2rem;
     font-family: monospace;
+    color: black;
+}
+input {
+    background-color: black;
+    color: goldenrod;;
+}
+input:hover{
+   background-color: goldenrod;
+   color: black;
+
+
+}
+form > * :hover{
+   
+   
+font-size: 26px;
 }
 button{
-    color: red;
-    background-color: cornsilk;
+    font-weight: bold;
+    color: goldenrod;
+    background-color: black;
     border-radius: 25%;
+}
+button:hover{
+    color: black;
+    background-color: goldenrod;
+    font-size:16px;
+    text-shadow: 1px -2px 0px black;
 }
 
 select{
 
 background-color: black;
-color:white;
+color:goldenrod;;
 border-radius: 25%;
 }
+select:hover{
+
+    
+    background-color:goldenrod;;
+    color: black;
+    }
 
 .listTodo {
     display:flex;
@@ -369,9 +430,57 @@ body {
     display: none;
 }
 form.ajax{
-    background-color: tomato;
+    background-color: goldenrod;
 }
 
 .update{
-    color:red;
+    color:goldenrod;
+}
+footer {
+    background-color: rgba(0,0,0,0.8);
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    align-items: center;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+    color: goldenrod;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+   
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+   
+    color: white;
+  }
+/*.....tablette....*/
+@media screen and (max-width: 1020px){
+
+
+
+
+}
+/*....tele....*/
+@media screen and (max-width: 600px){
+
+
+
 }

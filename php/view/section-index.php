@@ -1,10 +1,10 @@
 <section>
 
-            <h2>AFFICHAGE DES TACHES (READ)</h2>
+            <h2>Connaitre Ta Compétence</h2>
             
 
             <form class="ajax read" action="" method="POST">
-                <button type="submit">RAFRAICHIR LA LISTE DES TACHES</button>
+                <button type="submit">Rafraichir Ta Compétence</button>
                 
                 <input type="hidden" name="identifiantFormulaire" value="read">
             </form>

@@ -3,7 +3,7 @@
     <div id="dis"><a href="index.php">Se déconnecter</a></div></section>
 
 <section>
-            <h2>FORMULAIRE DE CREATION (CREATE)</h2>
+            <h2>Créer Ta Compétence</h2>
             <form class="ajax" action="" method="POST">
                 <input type="text" name="username" required placeholder="entrez le nom">
                 <select name="title">
@@ -40,16 +40,16 @@
                     <span>transposer</span>
                 </label>
     
-                <button type="submit">CREER UNE TACHE</button>
+                <button type="submit">Créer Ta Compétence</button>
                
                 <input type="hidden" name="identifiantFormulaire" value="create">
             </form>
         </section>
         <section>
-            <h2>AFFICHAGE DES TACHES (READ)</h2>
+            <h2>Connaitre Ta Compétence</h2>
 
             <form class="ajax read" action="" method="POST">
-                <button type="submit">RAFRAICHIR LA LISTE DES TACHES</button>
+                <button type="submit">Rafraichir Ta Compétence</button>
                 
                 <input type="hidden" name="identifiantFormulaire" value="read">
             </form>
@@ -58,7 +58,7 @@
         </section>
 
         <section>
-            <h2>FORMULAIRE DE MODIFICATION (UPDATE)</h2>
+            <h2>Modifier Ta Compétence</h2>
             <form class="ajax update" action="" method="POST">
             <input type="text" name="username" required placeholder="entrez le nom">
             <select name="title">
@@ -96,16 +96,16 @@
                 </label>
                 
                 <input type="hidden" name="id" required placeholder="id de la ligne">
-                <button type="submit">MODIFIER UNE TACHE</button>
+                <button type="submit">Modifier Ta Compétence</button>
                 
                 <input type="hidden" name="identifiantFormulaire" value="update">
             </form>
         </section>
         <section class="cache">
-            <h2>FORMULAIRE DE DELETE</h2>
+            <h2>Supprimer Ta Compétence</h2>
             <form class="ajax delete" action="">
                 <input type="number" name="id" required placeholder="id de la ligne">
-                <button type="submit">SUPPRIMER LA LIGNE</button>
+                <button type="submit">Supprimer Ta Compétence</button>
                
                 <input type="hidden" name="identifiantFormulaire" value="delete">
             </form>
