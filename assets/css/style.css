@@ -371,3 +371,7 @@ body {
 form.ajax{
     background-color: tomato;
 }
+
+.update{
+    color:red;
+}
