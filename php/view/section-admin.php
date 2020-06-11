@@ -7,9 +7,9 @@
             <form class="ajax" action="" method="POST">
                 <input type="text" name="username" required placeholder="entrez le nom">
                 <select name="title">
-                <option class="C1"value="identifier-les-technologies-nécessaires"> A partir d'un cahier des charges précis, identifier les technologies nécessaires à la réalisation de l'apllication web <img src="assets/img/C1.png"></option>
+                <option class="C1"value="identifier-les-technologies-nécessaires"> A partir d'un cahier des charges précis, identifier les technologies nécessaires à la réalisation de l'application web <img src="assets/img/C1.png"></option>
                     <option id="C2" value="Concevoir-l-architecture">Concevoir l’architecture technique de l’application web</option>
-                    <option id="C3"value="Réaliser-fonctionnalités-backend-et-framewworks">Réaliser les fonctionnalités basiques d’une application web à partir d'un langage backend et utiliser les framewworks correspondants</option>
+                    <option id="C3"value="Réaliser-fonctionnalités-backend-et-framewworks">Réaliser les fonctionnalités basiques d’une application web à partir d'un langage backend et utiliser les frameworks correspondants</option>
                     <option id="C4"value="Configurer-assurer-la-BDD"> Configurer et assurer la gestion de la base de données de l’application</option>
                     <option id="C5"value="Créer-gabarits-et-schémas"> Créer des gabarits à partir d’un cahier des charges et de schémas fonctionnels</option>
                     <option id="C6"value="Intégrer-contenu-visuel-et-textuel"> Intégrer le contenu visuel et textuel de l’application web en respectant le cahier des charges</option>
@@ -62,9 +62,9 @@
             <form class="ajax update" action="" method="POST">
             <input type="text" name="username" required placeholder="entrez le nom">
             <select name="title">
-                <option class="C1"value="identifier-les-technologies-nécessaires"> A partir d'un cahier des charges précis, identifier les technologies nécessaires à la réalisation de l'apllication web <img src="assets/img/C1.png"></option>
+                <option class="C1"value="identifier-les-technologies-nécessaires"> A partir d'un cahier des charges précis, identifier les technologies nécessaires à la réalisation de l'application web <img src="assets/img/C1.png"></option>
                     <option id="C2" value="Concevoir-l-architecture">Concevoir l’architecture technique de l’application web</option>
-                    <option id="C3"value="Réaliser-fonctionnalités-backend-et-framewworks">Réaliser les fonctionnalités basiques d’une application web à partir d'un langage backend et utiliser les framewworks correspondants</option>
+                    <option id="C3"value="Réaliser-fonctionnalités-backend-et-framewworks">Réaliser les fonctionnalités basiques d’une application web à partir d'un langage backend et utiliser les frameworks correspondants</option>
                     <option id="C4"value="Configurer-assurer-la-BDD"> Configurer et assurer la gestion de la base de données de l’application</option>
                     <option id="C5"value="Créer-gabarits-et-schémas"> Créer des gabarits à partir d’un cahier des charges et de schémas fonctionnels</option>
                     <option id="C6"value="Intégrer-contenu-visuel-et-textuel"> Intégrer le contenu visuel et textuel de l’application web en respectant le cahier des charges</option>

@@ -71,6 +71,7 @@ button{
     color: red;
     background-color: cornsilk;
     border-radius: 25%;
+    
 }
 
 select{
@@ -372,6 +373,16 @@ form.ajax{
     background-color: tomato;
 }
 
-.update{
-    color:red;
+/*.....tablaitte....*/
+@media screen and (max-width: 1020px){
+
+
+
+
+}
+/*....tele....*/
+@media screen and (max-width: 600px){
+
+
+
 }
