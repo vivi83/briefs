@@ -113,9 +113,9 @@ function supprimerLigne (event)
 {
     console.log(event.target);
     var bouton = event.target;
-    
+
     var id = bouton.getAttribute("data-id");
-  
+
     var inputId = document.querySelector("form.delete input[name=id]");
     inputId.value = id;
 
